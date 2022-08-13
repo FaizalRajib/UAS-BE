@@ -1,0 +1,125 @@
+:root{
+    --pr-color: #048853;
+    --rp-color:#f3fff4;
+}
+
+body{
+    background-color:var(--rp-color);
+}
+
+/* Navbar */
+.navbar{
+    background: linear-gradient(160deg, var(--pr-color), #000);
+    /* background-color: var(--pr-color); */
+    z-index: 3;
+}
+
+*{
+    z-index: 2;
+}
+
+.accsent-img{
+    z-index: 1;
+}
+
+.img-hero{
+    z-index: 1;
+}
+nav{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+.button-secundary{
+    width: 133px;
+    height: 40px;
+    background-color:transparent;
+    color: var(--rp-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5%;
+}
+.button-secundary:hover{
+    width: 133px;
+    height: 40px;
+    background-color:  var(--rp-color);
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5%;
+}
+
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color:transparent;
+    color: var(--rp-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5%;
+}
+
+.button-primary:hover{
+    width: 133px;
+    height: 40px;
+    background-color:  var(--rp-color);
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5%;
+}
+
+/* HERO */
+
+#hero{
+    background: linear-gradient(160deg, var(--pr-color), #000);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero{
+    height: 100%;
+}
+
+.hero-tagline h1{
+    color: var(--rp-color);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 72px;
+}
+
+.hero-tagline p{
+    font-size: 16px;
+    color: var(--rp-color);
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+}
+
+.btn-lg-primary {
+    width: 237px;
+    height: 70px;
+    background-color:var(--rp-color);
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius:3%;
+}
